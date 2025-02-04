@@ -1,9 +1,15 @@
 h1 {
-    color: blue;
+    color: brown;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: beige;
 }
