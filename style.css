@@ -1,18 +1,27 @@
+
+/*This is gonna be the style for the Title and color*/
 h1 {
     color: brown;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+/*This is gonna be the style for the font and background color*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 body {
     font-family:'Times New Roman', Times, serif;
     background-color: beige;
 }
+/* This is gonna be the style for the container behind the title */
 
 .container {
     width: 400px;
