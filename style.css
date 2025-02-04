@@ -6,7 +6,7 @@ h1 {
 }
 h1 {
     text-align: center;
-    color:black
+    color:black;
     margin-bottom: 20px;
 }
 
@@ -26,8 +26,14 @@ body {
 
 .container {
     width: 400px;
-    margin: 50px auto;
+    margin: 50px auto; /*50px auto is the same as 50px top and bottom and auto left and right*/
     background: #ffffff;
     padding: 20px;
     border-radius: 8px;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
