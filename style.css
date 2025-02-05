@@ -64,5 +64,11 @@ body {
     background: #8b4513;
 }
 
-/*This is gonna be the style for the list*/
+/*This is gonna be the style for the list of tasks*/
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
 
