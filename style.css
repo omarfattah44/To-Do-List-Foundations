@@ -2,11 +2,8 @@
 /*This is gonna be the style for the Title and color*/
 h1 {
     color: brown;
-    font-family:Georgia, 'Times New Roman', Times, serif
-}
-h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    color:black;
     margin-bottom: 20px;
 }
 
@@ -37,3 +34,35 @@ body {
     justify-content: center;
     margin-bottom: 20px;
 }
+
+/*This is gonna be the style for the input box*/
+
+#todo-input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+}
+
+/*This is gonna be the style for the button*/
+
+#add-button {
+    padding: 10px 20px;
+    border: none;
+    background: brown;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/*This is gonna be the style for the list*/
+
+#add-button:hover {
+    background: #8b4513;
+}
+
+/*This is gonna be the style for the list*/
+
